@@ -3,8 +3,8 @@ def open_file(file_path):
     with open(file_path, "r") as file:
         return file.readlines()
     
-img1=open_file(f"C:/new/img1.txt")
-img2=open_file(f"C:/new/img2.txt")
+img1=open_file(f"img1.txt")
+img2=open_file(f"img2.txt")
 
 for i,line in enumerate(img1):
     if "1" in line:
